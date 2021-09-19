@@ -6,16 +6,11 @@ import Home from './components/Home'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Signup from './components/Signup';
 import Diagnostics from './components/Diagnostics';
-import Pharmacy from './components/Pharmacy';
-//import { library } from '@fortawesome/fontawesome-svg-core'
-//import { fab } from '@fortawesome/free-brands-svg-icons'
-//import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
-
-//library.add(fab, faCheckSquare, faCoffee)
+import Pharmacy from './components/Pharmacy'
 function App() {
   return (
     <div className="grid-container">
-      <Router>
+      <Router >
         <header>
           <Nav />
         </header>
@@ -40,5 +35,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

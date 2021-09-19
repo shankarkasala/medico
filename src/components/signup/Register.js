@@ -2,24 +2,23 @@ import React from 'react';
 import './Signup.css'
 export default function Register() {
   return (
-    <form >
-
+    <form id="register" className=" tabcontent">
       <ul className="form-container">
         <li>
-          <label>Email</label>
-          <input name="email" type="email" required ></input>
+          <label>Email ID</label>
+          <input  className="in-put" name="email" type="email" placeholder="Enter Email ID" required ></input>
         </li>
         <li>
           <label>Name</label>
-          <input name="name" type="text" required ></input>
+          <input  className="in-put" name="name" type="text" placeholder="Enter Name" required ></input>
         </li>
         <li>
           <label>Password</label>
-          <input name="address" type="password" required></input>
+          <input  className="in-put" name="address" type="password" placeholder="Enter Password" required></input>
         </li>
         <li>
-          <label>Confrim Password</label>
-          <input name="address" type="password" required></input>
+          <label>Conform Password</label>
+          <input  className="in-put" name="address" type="password" placeholder="Conform Password" required></input>
         </li>
         <li>
           <button className="button button-primary" type="submit"  >Register</button>

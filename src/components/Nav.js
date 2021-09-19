@@ -1,14 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Button from 'react-bootstrap/Button'
 import InputGroup from 'react-bootstrap/InputGroup'
 import DropdownButton from 'react-bootstrap/DropdownButton'
 import Dropdown from 'react-bootstrap/Dropdown'
 import FormControl from 'react-bootstrap/FormControl'
 export default function Nav() {
-
     return (
-
         <nav>
             <ul className="nav-links">
                 <li>
@@ -52,16 +49,13 @@ export default function Nav() {
                     </DropdownButton>
                     <FormControl aria-label="Text input with dropdown button" />
                 </InputGroup>
-
             </div>
-            
             <div className="signup">
-                <Link to='/signup'>
+                <Link to='/signup/login'>
                 
                      <button className="button button-primary"  >Login / Signup</button>
                 </Link>
             </div>
         </nav>
-
     )
 }

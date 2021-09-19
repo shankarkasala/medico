@@ -15,8 +15,14 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.5",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-modal": "^3.14.3",
+    "react-reveal": "^1.2.2",
+    "react-router": "^3.2.6",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-springs": "^1.1.0",
+    "styled-components": "^5.3.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
